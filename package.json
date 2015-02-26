@@ -1,0 +1,33 @@
+{
+  "name": "basic-assert",
+  "version": "1.0.0",
+  "description": "Lets you assert that objects aren't empty/undefined and that they contain the correct subdocuments with the right types. can validate against primitives as well as email, base64, credit card number, url, ip and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schme16/basic-assert.git"
+  },
+  "keywords": [
+    "assert",
+    "nodejs",
+    "iojs",
+    "validation",
+    "types",
+    "primitives"
+  ],
+  "author": "Shane Gadsby <schme16@gmail.com>",
+  "license": "GNU GPL 3.0",
+  "bugs": {
+    "url": "https://github.com/schme16/basic-assert/issues"
+  },
+  "homepage": "https://github.com/schme16/basic-assert",
+  "dependencies": {
+    "validator": "^3.32.0"
+  },
+  "devDependencies": {
+    "basic-passing": "^1.0.0"
+  }
+}
